@@ -3,12 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundColor: {
-        lightgrey: "#f3f3f3",
-        headinggrey: "#181717",
-        textgrey: "#606060",
-      },
-      textColor: {
+      colors: {
         lightgrey: "#f3f3f3",
         headinggrey: "#181717",
         textgrey: "#606060",
