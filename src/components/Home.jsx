@@ -1,11 +1,12 @@
 import React from "react";
 import ladka from "../images/ladka.svg";
 import ladka2 from "../images/ladka2.svg";
+import arrow from "../images/arrow.svg";
 
 const Home = () => {
   return (
-    <div className="flex flex-col justify-between w-full md:flex-row md:h-5/6">
-      <div className="flex flex-col mt-10 text-left md:w-1/2 md:mt-32 2xl:mt-48 font-DmSans ">
+    <div className="flex flex-col w-full md:flex-row md:h-5/6">
+      <div className="flex flex-col justify-between mt-10 text-left md:w-1/2 md:mt-32 2xl:mt-48 font-DmSans ">
         <div>
           <h2 className="text-4xl font-medium sm:text-5xl md:text-5xl lg:text-6xl 2xl:text-7xl">
             Namaste, I’m
@@ -17,12 +18,16 @@ const Home = () => {
             I design & build digital products.
           </h3>
         </div>
-
-        {/* <div className="mousey">
-          <div className="scroller"></div>
-        </div> */}
+        <div>
+          <img
+            className="w-8 h-8"
+            src={arrow}
+            alt="downwards arrow"
+          />
+        </div>
       </div>
-      <div className="items-center justify-center p-6 md:w-1/2 md:flex">
+
+      <div className="items-center justify-center p-6 text-black md:w-1/2 md:flex">
         <img
           className="h-full"
           src={ladka}
