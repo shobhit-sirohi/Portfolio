@@ -18,7 +18,7 @@ const Home = () => {
             I design & build digital products.
           </h3>
         </div>
-        <div className="hidden lg:flex">
+        <div className="hidden md:flex">
           <img
             className="w-8 h-8"
             src={arrow}
@@ -27,9 +27,9 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="items-center justify-center p-6 text-black md:w-1/2 md:flex">
+      <div className="flex items-center justify-center text-black px-14 md:px-0 md:w-1/2 ">
         <img
-          className="h-full"
+          className="xl:h-5/6"
           src={ladka}
           alt="boy illustration"
         />

@@ -22,10 +22,10 @@ const Navigation = () => {
         </a>
         <ul className="hidden space-x-16 text-2xl font-medium md:flex 2xl:space-x-20 2xl:text-3xl">
           <li>
-            <a href="#">work</a>
+            <a href="#">about</a>
           </li>
           <li>
-            <a href="#">about</a>
+            <a href="#">work</a>
           </li>
           <li>
             <a href="#">contact</a>
