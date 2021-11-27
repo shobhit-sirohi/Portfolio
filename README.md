@@ -7,9 +7,11 @@
   <h3 align="center">Portfolio</h3>
 
   <p align="center">
-    <a href="https://github.com/othneildrew/Best-README-Template">View Live</a>
+    <a href="https://shobhitsirohi.com">Live View</a>
+    .
+    <a href="https://github1s.com/shobhit-sirohi/Portfolio">Code</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/shobhit-sirohi/Portfolio/issues">Report Bug</a>
   </p>
 </div>
 
