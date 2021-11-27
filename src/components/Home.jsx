@@ -1,6 +1,5 @@
 import React from "react";
 import ladka from "../images/ladka.svg";
-import ladka2 from "../images/ladka2.svg";
 import arrow from "../images/arrow.svg";
 
 const Home = () => {
