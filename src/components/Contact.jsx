@@ -15,7 +15,7 @@ const Contact = () => {
         Connect with me.
       </h1>
       <div className="pt-10 font-Inter ">
-        <div className="grid grid-cols-1 gap-10 md:justify-items-center lg:grid-cols-3 md:grid-cols-2">
+        <div className="grid grid-cols-2 gap-10 md:justify-items-center lg:grid-cols-3 md:grid-cols-2">
           <a
             className="flex items-center p-2 space-x-2 text-black transform hover:scale-125"
             href="https://github.com/shobhit-sirohi"
