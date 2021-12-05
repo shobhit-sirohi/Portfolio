@@ -11,13 +11,13 @@ import gmail from "../images/gmail.svg";
 const Contact = () => {
   return (
     <div id="contact" className="space-y-8 ">
-      <h1 className="pt-24 text-7xl font-Inter">
+      <h1 className="pt-24 text-5xl lg:text-7xl font-Inter">
         Connect with me.
       </h1>
       <div className="pt-10 font-Inter ">
         <div className="grid grid-cols-2 gap-10 md:justify-items-center lg:grid-cols-3 md:grid-cols-2">
           <a
-            className="flex items-center p-2 space-x-2 text-black transform hover:scale-125"
+            className="flex items-center p-2 space-x-2 text-black transform md:hover:scale-125"
             href="https://github.com/shobhit-sirohi"
             target="_blank"
           >
@@ -26,10 +26,12 @@ const Contact = () => {
               alt="twitter-logo"
               className="w-12 h-12"
             />
-            <p className="text-3xl font-semibold">Github</p>
+            <p className="text-2xl font-semibold md:text-3xl">
+              Github
+            </p>
           </a>
           <a
-            className="flex items-center p-2 space-x-2 transform hover:scale-125 text-twitter"
+            className="flex items-center p-2 space-x-2 transform md:hover:scale-125 text-twitter"
             href="https://twitter.com/ShobhitSirohi"
             target="_blank"
           >
@@ -38,12 +40,12 @@ const Contact = () => {
               alt="twitter-logo"
               className="w-12 h-12"
             />
-            <p className="text-3xl font-semibold">
+            <p className="text-2xl font-semibold md:text-3xl">
               Twitter
             </p>
           </a>
           <a
-            className="flex items-center p-2 space-x-2 transform hover:scale-125 text-linkedin"
+            className="flex items-center p-2 space-x-2 transform md:hover:scale-125 text-linkedin"
             href="https://www.linkedin.com/in/shobhit-sirohi-8b0a803b/"
             target="_blank"
           >
@@ -52,12 +54,12 @@ const Contact = () => {
               alt="twitter-logo"
               className="w-12 h-12"
             />
-            <p className="text-3xl font-semibold">
+            <p className="text-2xl font-semibold md:text-3xl">
               Linkedin
             </p>
           </a>
           <a
-            className="flex items-center p-2 space-x-2 transform hover:scale-125 text-behance"
+            className="flex items-center p-2 space-x-2 transform md:hover:scale-125 text-behance"
             href="https://www.behance.net/shobhitsirohi"
             target="_blank"
           >
@@ -66,13 +68,13 @@ const Contact = () => {
               alt="twitter-logo"
               className="w-12 h-12"
             />
-            <p className="text-3xl font-semibold">
+            <p className="text-2xl font-semibold md:text-3xl">
               Behance
             </p>
           </a>
 
           <a
-            className="flex items-center p-2 space-x-2 transform hover:scale-125 text-dribbble"
+            className="flex items-center p-2 space-x-2 transform md:hover:scale-125 text-dribbble"
             href="https://dribbble.com/8bitboi"
             target="_blank"
           >
@@ -81,12 +83,12 @@ const Contact = () => {
               alt="twitter-logo"
               className="w-12 h-12"
             />
-            <p className="text-3xl font-semibold">
+            <p className="text-2xl font-semibold md:text-3xl">
               Dribbble
             </p>
           </a>
           <a
-            className="flex items-center p-2 space-x-2 transform hover:scale-125 text-figma"
+            className="flex items-center p-2 space-x-2 transform md:hover:scale-125 text-figma"
             href="https://www.figma.com/@shobhitsirohi"
             target="_blank"
           >
@@ -95,11 +97,13 @@ const Contact = () => {
               alt="twitter-logo"
               className="w-12 h-12"
             />
-            <p className="text-3xl font-semibold">Figma</p>
+            <p className="text-2xl font-semibold md:text-3xl">
+              Figma
+            </p>
           </a>
 
           <a
-            className="flex items-center p-2 space-x-2 transform hover:scale-125 text-gmail"
+            className="flex items-center p-2 space-x-2 transform md:hover:scale-125 text-gmail"
             href="mailto:shobhitsirohi.dev@gmail.com"
             target="_blank"
           >
@@ -108,10 +112,12 @@ const Contact = () => {
               alt="twitter-logo"
               className="w-12 h-12"
             />
-            <p className="text-3xl font-semibold">Gmail</p>
+            <p className="text-2xl font-semibold md:text-3xl">
+              Gmail
+            </p>
           </a>
           <a
-            className="flex items-center p-2 space-x-2 transform hover:scale-125 text-spotify"
+            className="flex items-center p-2 space-x-2 transform md:hover:scale-125 text-spotify"
             href="https://open.spotify.com/user/howdyboi22?si=a96ba306d7cd4448"
             target="_blank"
           >
@@ -120,12 +126,12 @@ const Contact = () => {
               alt="twitter-logo"
               className="w-12 h-12"
             />
-            <p className="text-3xl font-semibold">
+            <p className="text-2xl font-semibold md:text-3xl">
               Spotify
             </p>
           </a>
           <a
-            className="flex items-center p-2 space-x-2 transform hover:scale-125 text-steam"
+            className="flex items-center p-2 space-x-2 transform md:hover:scale-125 text-steam"
             href="https://steamcommunity.com/id/8bitboi/"
             target="_blank"
           >
@@ -134,7 +140,9 @@ const Contact = () => {
               alt="twitter-logo"
               className="w-12 h-12"
             />
-            <p className="text-3xl font-semibold">Steam</p>
+            <p className="text-2xl font-semibold md:text-3xl">
+              Steam
+            </p>
           </a>
         </div>
       </div>

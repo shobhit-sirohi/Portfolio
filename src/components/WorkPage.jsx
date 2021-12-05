@@ -8,7 +8,7 @@ import dicegame from "../images/dicegame.png";
 const WorkPage = () => {
   return (
     <div id="work" className="space-y-8">
-      <h1 className="pt-24 text-7xl font-Inter">
+      <h1 className="pt-24 text-5xl lg:text-7xl font-Inter">
         My Work.
       </h1>
       <Work
