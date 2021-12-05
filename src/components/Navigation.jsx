@@ -22,16 +22,21 @@ const Navigation = () => {
         </a>
         <ul className="hidden space-x-16 text-2xl font-medium md:flex 2xl:space-x-20 2xl:text-3xl">
           <li>
-            <a href="#">about</a>
+            <a href="#about">about</a>
           </li>
           <li>
-            <a href="#">work</a>
+            <a href="#work">work</a>
           </li>
           <li>
-            <a href="#">contact</a>
+            <a href="#contact">contact</a>
           </li>
           <li>
-            <a href="#">blog</a>
+            <a
+              href="https://sirohi.hashnode.dev/"
+              target="_blank"
+            >
+              blog
+            </a>
           </li>
         </ul>
       </nav>

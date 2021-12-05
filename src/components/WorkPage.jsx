@@ -7,7 +7,8 @@ import clock from "../images/clock.png";
 import dicegame from "../images/dicegame.png";
 const WorkPage = () => {
   return (
-    <div className="space-y-10">
+    <div id="work" className="space-y-8">
+      <h1 className="pt-24 text-7xl">Work.</h1>
       <Work
         heading="01 / HOMEPAGE"
         text="A Responsive Home Page for a Design Agency, made with React and TailwindCss."
