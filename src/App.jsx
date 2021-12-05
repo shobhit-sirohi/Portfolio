@@ -3,6 +3,8 @@ import Navigation from "./components/Navigation";
 import Home from "./components/Home";
 import WorkPage from "./components/WorkPage";
 import About from "./components/About";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -10,7 +12,9 @@ const App = () => {
       <Navigation />
       <Home />
       <About />
+      <Contact />
       <WorkPage />
+      <Footer />
     </div>
   );
 };

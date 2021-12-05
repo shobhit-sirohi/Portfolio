@@ -4,7 +4,10 @@ import arrow from "../images/arrow.svg";
 
 const Home = () => {
   return (
-    <div className="flex flex-col w-full md:flex-row md:h-5/6">
+    <div
+      className="flex flex-col w-full md:flex-row md:h-5/6"
+      id="home"
+    >
       <div className="flex flex-col justify-between mt-10 text-left md:w-1/2 md:mt-32 2xl:mt-48 font-DmSans ">
         <div>
           <h2 className="text-5xl font-medium lg:text-6xl 2xl:text-7xl">
