@@ -17,7 +17,7 @@ const About = () => {
       <h1 className="pt-24 text-5xl lg:text-7xl font-Inter">
         About me.
       </h1>
-      <div className="flex flex-col pt-10 md:flex-row">
+      <div className="flex flex-col pt-6 md:pt-10 md:flex-row">
         <div className="space-y-4 text-2xl font-medium lg:space-y-6 md:text-3xl 2xl:text-4xl font-Inter text-textgrey">
           <h2>
             I am a Front-End Developer from Meerut, India 🇮🇳
