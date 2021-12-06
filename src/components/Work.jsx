@@ -8,7 +8,7 @@ const Work = ({
   demoLink,
 }) => {
   return (
-    <div className="flex flex-col gap-10 pt-20 md:flex-row ">
+    <div className="flex flex-col gap-10 pt-8 md:pt-20 md:flex-row ">
       <div className="flex flex-col justify-between md:pr-10 md:w-1/2">
         <div className="space-y-4 md:space-y-14">
           <h1 className="text-3xl font-medium">
@@ -16,7 +16,7 @@ const Work = ({
           </h1>
           <p className="text-xl">{text}</p>
         </div>
-        <div className="flex flex-col space-y-1 md:space-y-2">
+        <div className="flex flex-col pt-4 space-y-1 md:pt-0 md:space-y-2">
           <div>
             <a
               className="text-2xl underline hover:text-blue-600"

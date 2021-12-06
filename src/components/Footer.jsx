@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="flex items-center justify-center py-20">
+    <div className="flex items-center justify-center py-8 md:py-20">
       <a
         href="#"
         className="flex flex-col items-center justify-center hover:text-blu"

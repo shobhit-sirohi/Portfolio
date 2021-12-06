@@ -10,12 +10,12 @@ import gmail from "../images/gmail.svg";
 
 const Contact = () => {
   return (
-    <div id="contact" className="space-y-8 ">
+    <div id="contact" className="space-y-4 md:space-y-8 ">
       <h1 className="pt-24 text-5xl lg:text-7xl font-Inter">
         Connect with me.
       </h1>
       <div className="pt-10 font-Inter ">
-        <div className="grid grid-cols-2 gap-10 md:justify-items-center lg:grid-cols-3 md:grid-cols-2">
+        <div className="grid grid-cols-2 gap-4 md:gap-10 md:justify-items-center lg:grid-cols-3 ">
           <a
             className="flex items-center p-2 space-x-2 text-black transform md:hover:scale-125"
             href="https://github.com/shobhit-sirohi"
@@ -23,8 +23,8 @@ const Contact = () => {
           >
             <img
               src={github}
-              alt="twitter-logo"
-              className="w-12 h-12"
+              alt="github-logo"
+              className="w-11 h-11"
             />
             <p className="text-2xl font-semibold md:text-3xl">
               Github
@@ -51,7 +51,7 @@ const Contact = () => {
           >
             <img
               src={linkedin}
-              alt="twitter-logo"
+              alt="linkedin-logo"
               className="w-12 h-12"
             />
             <p className="text-2xl font-semibold md:text-3xl">
@@ -65,7 +65,7 @@ const Contact = () => {
           >
             <img
               src={behance}
-              alt="twitter-logo"
+              alt="behance-logo"
               className="w-12 h-12"
             />
             <p className="text-2xl font-semibold md:text-3xl">
@@ -80,7 +80,7 @@ const Contact = () => {
           >
             <img
               src={dribbble}
-              alt="twitter-logo"
+              alt="dribbble-logo"
               className="w-12 h-12"
             />
             <p className="text-2xl font-semibold md:text-3xl">
@@ -94,7 +94,7 @@ const Contact = () => {
           >
             <img
               src={figma}
-              alt="twitter-logo"
+              alt="figma-logo"
               className="w-12 h-12"
             />
             <p className="text-2xl font-semibold md:text-3xl">
@@ -109,7 +109,7 @@ const Contact = () => {
           >
             <img
               src={gmail}
-              alt="twitter-logo"
+              alt="gmail-logo"
               className="w-12 h-12"
             />
             <p className="text-2xl font-semibold md:text-3xl">
@@ -123,7 +123,7 @@ const Contact = () => {
           >
             <img
               src={spotify}
-              alt="twitter-logo"
+              alt="spotify-logo"
               className="w-12 h-12"
             />
             <p className="text-2xl font-semibold md:text-3xl">
@@ -137,7 +137,7 @@ const Contact = () => {
           >
             <img
               src={steam}
-              alt="twitter-logo"
+              alt="steam-logo"
               className="w-12 h-12"
             />
             <p className="text-2xl font-semibold md:text-3xl">
