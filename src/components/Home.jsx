@@ -10,8 +10,8 @@ const Home = () => {
     >
       <div className="flex flex-col justify-between mt-10 text-left md:w-1/2 md:mt-32 2xl:mt-48 font-DmSans ">
         <div>
-          <h2 className="text-5xl font-medium lg:text-6xl 2xl:text-7xl">
-            Namaste, I’m
+          <h2 className="text-5xl font-medium boxy lg:text-6xl 2xl:text-7xl">
+            <span></span>, I’m
           </h2>
           <h2 className="mt-2 text-5xl font-medium sm:text-5xl md:text-5xl lg:text-6xl 2xl:text-7xl">
             Shobhit Sirohi.

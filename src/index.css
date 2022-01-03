@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.boxy span:before {
+  content: "Namaste";
+  animation: text infinite 6s;
+}
+@keyframes text {
+  20% {
+    content: "Hola";
+  }
+  40% {
+    content: "Bonjour";
+  }
+  60% {
+    content: "Konnichiwa";
+  }
+  80% {
+    content: "Hello";
+  }
+}
