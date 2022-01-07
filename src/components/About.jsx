@@ -40,11 +40,11 @@ const About = () => {
           <h2 className="">
             Currently learning web APIs and building<> </>
             <a
-              href="https://github.com/shobhit-sirohi/pokeapi"
+              href="https://github.com/shobhit-sirohi/shopify-challenge-2022"
               target="_blank"
               className="underline hover:text-blu"
             >
-              PokeAPI Project
+              Spacetagram
             </a>
             .
           </h2>
