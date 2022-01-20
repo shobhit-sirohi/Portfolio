@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="w-screen h-screen px-4 pt-4 lg:px-24 lg:pt-10 2xl:px-36 2xl:pt-10">
+    <div className="h-screen px-4 pt-4 lg:px-20 lg:pt-10 2xl:px-24 2xl:pt-14">
       <Navigation />
       <Home />
       <About />
