@@ -3,10 +3,10 @@ const Footer = () => {
     <div className="flex items-center justify-center py-8 md:py-20">
       <a
         href="#"
-        className="flex flex-col items-center justify-center hover:text-blu"
+        className="flex flex-col items-center justify-center hover:text-orangy"
       >
         <svg
-          className="w-8 h-8 transform rotate-180 fill-current hover:text-blu "
+          className="w-8 h-8 transform rotate-180 fill-current "
           width="34"
           height="39"
           viewBox="0 0 34 39"

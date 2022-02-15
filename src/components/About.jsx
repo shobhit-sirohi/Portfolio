@@ -20,9 +20,9 @@ const About = () => {
       <div className="flex flex-col pt-6 md:pt-10 md:flex-row">
         <div className="space-y-4 text-2xl font-medium lg:space-y-6 md:text-3xl 2xl:text-4xl font-Inter text-textgrey">
           <h2>
-            I am a Front-End Developer from Meerut, India 🇮🇳
+            I am a Front-End Developer from Meerut, India
           </h2>
-          <h2 className="">
+          {/* <h2 className="">
             Working as an Intern at <> </>
             <a
               href="https://learnwithleaders.com"
@@ -32,7 +32,7 @@ const About = () => {
               Learn with Leaders
             </a>
             .
-          </h2>
+          </h2> */}
           <h2>
             Old, Boring and Non-Responsive websites are my
             biggest Pet Peeves 🤢
@@ -42,7 +42,7 @@ const About = () => {
             <a
               href="https://github.com/shobhit-sirohi/shopify-challenge-2022"
               target="_blank"
-              className="underline hover:text-blu"
+              className="underline hover:text-orangy"
             >
               Spacetagram
             </a>
@@ -50,7 +50,7 @@ const About = () => {
           </h2>
         </div>
       </div>
-      <div className="pt-8 space-y-4 text-2xl font-medium lg:space-y-6 md:text-3xl 2xl:text-4xl font-Inter text-blu">
+      <div className="pt-8 space-y-4 text-2xl font-medium lg:space-y-6 md:text-3xl 2xl:text-4xl font-Inter text-orangy">
         <h2>Tech Stack :</h2>
         <div className="grid grid-cols-4 gap-4 md:pt-4 md:gap-10 lg:grid-cols-6 md:grid-cols-5 2xl:8 justify-items-center">
           <a

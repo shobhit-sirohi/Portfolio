@@ -19,7 +19,7 @@ const Work = ({
         <div className="flex flex-col pt-4 space-y-1 md:pt-0 md:space-y-2">
           <div>
             <a
-              className="text-2xl underline hover:text-blue-600"
+              className="text-2xl underline hover:text-orangy"
               href={gitLink}
               target="_blank"
             >
@@ -28,8 +28,9 @@ const Work = ({
           </div>
           <div>
             <a
-              className="text-2xl underline hover:text-blue-600"
+              className="text-2xl underline hover:text-orangy"
               href={demoLink}
+              target="_blank"
             >
               Live Preview
             </a>

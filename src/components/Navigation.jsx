@@ -5,8 +5,8 @@ const Navigation = () => {
     <div>
       <nav className="flex items-center justify-between font-DmSans text-headinggrey">
         <div>
-          <span className="text-3xl font-bold md:text-5xl 2xl:text-5xl">
-            sho.
+          <span className="text-3xl font-bold md:text-5xl 2xl:text-5xl text-orangy">
+            shobhit.
           </span>
         </div>
         <a className="md:hidden">
@@ -20,23 +20,23 @@ const Navigation = () => {
           </svg>
         </a>
         <ul className="hidden space-x-16 text-2xl font-medium md:flex 2xl:space-x-20 2xl:text-3xl">
-          <li>
+          <li className="hover:text-orangy">
             <a href="#about">about</a>
           </li>
-          <li>
+          <li className="hover:text-orangy">
             <a href="#work">work</a>
           </li>
-          <li>
+          <li className="hover:text-orangy">
             <a href="#contact">contact</a>
           </li>
-          <li>
+          {/* <li>
             <a
               href="https://sirohi.hashnode.dev/"
               target="_blank"
             >
               blog
             </a>
-          </li>
+          </li> */}
         </ul>
       </nav>
       {show && (

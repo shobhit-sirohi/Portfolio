@@ -1,9 +1,8 @@
 import React from "react";
 import Work from "./Work";
-import homepage from "../images/homepage.png";
+import gsip from "../images/gsip.png";
 import starbucks from "../images/starbucks.png";
-import portfolio from "../images/portfolio.png";
-import clock from "../images/clock.png";
+import spacetagram from "../images/spacetagram.png";
 import dicegame from "../images/dicegame.png";
 const WorkPage = () => {
   return (
@@ -12,14 +11,22 @@ const WorkPage = () => {
         My Work.
       </h1>
       <Work
-        heading="01 / HOMEPAGE"
-        text="A Responsive Home Page for a Design Agency, made with React and TailwindCss."
-        image={homepage}
-        gitLink="https://github.com/shobhit-sirohi/HomePage"
-        demoLink="https://home-page-shobhit-sirohi.netlify.app/"
+        heading="01 / SPACETAGRAM"
+        text="Randomly Generated Data Cards from Nasa's APOD API. Built using React and TailwindCss. Implemented React Router DOM for the picture of the day page."
+        image={spacetagram}
+        gitLink="https://github.com/shobhit-sirohi/shopify-challenge-2022"
+        demoLink="https://spacetagram-shobhit-sirohi.netlify.app/"
       />
       <Work
-        heading="02 / STARBUCKS REWARDS PAGE"
+        heading="03 / GLOBAL SCHOLAR INTERNSHIP PROGRAM's WEBSITE"
+        text="World’s First Rotational Global Internship Program under the guidance of Ivy league Mentors & Corporate Executives. Built with React and TailwindCss, Pages are implemented by using React Router DOM."
+        image={gsip}
+        gitLink="https://github.com/shobhit-sirohi/gsip"
+        demoLink="https://gsip.netlify.app/"
+      />
+
+      <Work
+        heading="02 / STARBUCKS REWARDS PAGE CLONE"
         text="A fully Responsive Clone of Starbucks Rewards Page. Made with HTML and TailwindCss."
         image={starbucks}
         gitLink="https://github.com/shobhit-sirohi/starbucks-rewards-page-clone"
@@ -31,20 +38,6 @@ const WorkPage = () => {
         image={dicegame}
         gitLink="https://github.com/shobhit-sirohi/DiceGame"
         demoLink="https://dice-game-shobhit-sirohi.netlify.app/"
-      />
-      <Work
-        heading="03 / PORTFOLIO"
-        text="My Personal Portfolio. Made with React and TailwindCss. Responsive For a wide range of screens from Small to Ultrawide."
-        image={portfolio}
-        gitLink="https://github.com/shobhit-sirohi/Portfolio"
-        demoLink="https://www.shobhitsirohi.com/"
-      />
-      <Work
-        heading="04 / JAVASCRIPT CLOCK"
-        text="A Clock made with HTML, CSS and Javascript. It Shows the Timezone where the user is located."
-        image={clock}
-        gitLink="https://github.com/shobhit-sirohi/Clock"
-        demoLink="https://earth-clock.netlify.app/"
       />
     </div>
   );
