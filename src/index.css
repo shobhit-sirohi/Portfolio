@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 .boxy span:before {
-  content: "Namaste";
+  content: "नमस्ते";
   animation: text infinite 6s;
 }
 @keyframes text {
   20% {
-    content: "Hola";
+    content: "Привет";
   }
   40% {
     content: "Bonjour";
   }
   60% {
-    content: "Konnichiwa";
+    content: "こんにちわ";
   }
   80% {
     content: "Hello";
