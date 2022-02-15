@@ -14,7 +14,7 @@ import vscode from "../images/vscode.svg";
 const About = () => {
   return (
     <div id="about" className="space-y-4 md:space-y-8">
-      <h1 className="pt-24 text-5xl lg:text-7xl font-Inter">
+      <h1 className="pt-24 text-5xl lg:text-6xl font-Inter">
         About me.
       </h1>
       <div className="flex flex-col pt-6 md:pt-10 md:flex-row">

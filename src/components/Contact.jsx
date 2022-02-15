@@ -11,7 +11,7 @@ import gmail from "../images/gmail.svg";
 const Contact = () => {
   return (
     <div id="contact" className="space-y-4 md:space-y-8 ">
-      <h1 className="pt-24 text-5xl lg:text-7xl font-Inter">
+      <h1 className="pt-24 text-5xl lg:text-6xl font-Inter">
         Connect with me.
       </h1>
       <div className="pt-10 font-Inter ">
