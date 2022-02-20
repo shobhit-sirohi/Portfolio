@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         lightgrey: "#86868b",
         headinggrey: "#181717",
-        textgrey: "#606060",
+        textgrey: "#86868b",
         behance: "#105DFB",
         dribbble: "#E84C88",
         figma: "#A259FF",
