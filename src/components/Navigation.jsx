@@ -20,14 +20,14 @@ const Navigation = () => {
           </svg>
         </a>
         <ul className="hidden space-x-16 text-2xl font-medium md:flex 2xl:space-x-20 2xl:text-3xl">
-          <li className="hover:text-orangy">
-            <a href="#about">about</a>
+          <li className="hover:text-orangy ">
+            <a class="cursor-fancy" href="#about">about</a>
           </li>
           <li className="hover:text-orangy">
-            <a href="#work">work</a>
+            <a class="cursor-fancy" href="#work">work</a>
           </li>
           <li className="hover:text-orangy">
-            <a href="#contact">contact</a>
+            <a class="cursor-fancy" href="#contact">contact</a>
           </li>
           {/* <li>
             <a

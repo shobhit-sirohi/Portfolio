@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        lightgrey: "#86868b",
+        lightgrey: "#FFFFFF",
         headinggrey: "#181717",
         textgrey: "#86868b",
         behance: "#105DFB",
@@ -17,6 +17,9 @@ module.exports = {
         orangy: "#FF7722",
         spotify: "#1ED760",
         blu: "#2429AF",
+      },
+      cursor: {
+        'fancy': 'url(./src/images/pointer.svg), pointer',
       },
       fontFamily: {
         DmSans: ["DM Sans", "sans-serif"],

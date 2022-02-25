@@ -20,7 +20,7 @@ const About = () => {
       <div className="flex flex-col pt-6 md:pt-10 md:flex-row">
         <div className="space-y-4 text-2xl font-medium lg:space-y-6 md:text-3xl 2xl:text-4xl font-Inter text-textgrey">
           <h2>
-            I am a Front-End Developer from Meerut, India
+            I am a Front-end Engineer from Meerut, India
           </h2>
           {/* <h2 className="">
             Working as an Intern at <> </>
@@ -34,15 +34,14 @@ const About = () => {
             .
           </h2> */}
           <h2>
-            Old, Boring and Non-Responsive websites are my
-            biggest Pet Peeves 🤢
+            
           </h2>
           <h2 className="">
             Currently learning web APIs and building<> </>
             <a
               href="https://github.com/shobhit-sirohi/shopify-challenge-2022"
               target="_blank"
-              className="underline hover:text-orangy"
+              className="underline hover:text-orangy cursor-fancy"
             >
               Spacetagram
             </a>
@@ -51,12 +50,12 @@ const About = () => {
         </div>
       </div>
       <div className="pt-8 space-y-4 text-2xl font-medium lg:space-y-6 md:text-3xl 2xl:text-4xl font-Inter text-orangy">
-        <h2>Tech Stack :</h2>
+        <h2>Familiar Technologies :</h2>
         <div className="grid grid-cols-4 gap-4 md:pt-4 md:gap-10 lg:grid-cols-6 md:grid-cols-5 2xl:8 justify-items-center">
           <a
             href="https://developer.mozilla.org/en-US/docs/Web/HTML"
             target="_blank"
-            className="hover:opacity-80"
+            className="hover:opacity-80 cursor-fancy"
           >
             <img
               src={html}
@@ -68,7 +67,7 @@ const About = () => {
           <a
             href="https://developer.mozilla.org/en-US/docs/Web/CSS"
             target="_blank"
-            className="hover:opacity-80"
+            className="hover:opacity-80 cursor-fancy"
           >
             <img
               src={css}
@@ -79,7 +78,7 @@ const About = () => {
           <a
             href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
             target="_blank"
-            className="hover:opacity-80"
+            className="hover:opacity-80 cursor-fancy"
           >
             <img
               src={js}
@@ -90,7 +89,7 @@ const About = () => {
           <a
             href="https://reactjs.org/"
             target="_blank"
-            className="hover:opacity-80"
+            className="hover:opacity-80 cursor-fancy"
           >
             <img
               src={react}
@@ -101,7 +100,7 @@ const About = () => {
           <a
             href="https://tailwindcss.com/"
             target="_blank"
-            className="hover:opacity-80"
+            className="hover:opacity-80 cursor-fancy"
           >
             <img
               src={tailwind}
@@ -112,7 +111,7 @@ const About = () => {
           <a
             href="https://www.netlify.com/"
             target="_blank"
-            className="hover:opacity-80"
+            className="hover:opacity-80 cursor-fancy"
           >
             <img
               src={netlify}
@@ -123,7 +122,7 @@ const About = () => {
           <a
             href="https://git-scm.com/"
             target="_blank"
-            className="hover:opacity-80"
+            className="hover:opacity-80 cursor-fancy"
           >
             <img
               src={git}
@@ -134,7 +133,7 @@ const About = () => {
           <a
             href="https://www.npmjs.com/"
             target="_blank"
-            className="hover:opacity-80"
+            className="hover:opacity-80 cursor-fancy"
           >
             <img
               src={npm}
@@ -146,7 +145,7 @@ const About = () => {
           <a
             href="https://github.com/"
             target="_blank"
-            className="hover:opacity-80"
+            className="hover:opacity-80 cursor-fancy"
           >
             <img
               src={github}
@@ -157,7 +156,7 @@ const About = () => {
           <a
             href="https://code.visualstudio.com/"
             target="_blank"
-            className="hover:opacity-80"
+            className="hover:opacity-80 cursor-fancy"
           >
             <img
               src={vscode}
@@ -168,7 +167,7 @@ const About = () => {
           <a
             href="https://vitejs.dev/"
             target="_blank"
-            className="hover:opacity-80"
+            className="hover:opacity-80 cursor-fancy"
           >
             <img
               src={vite}
@@ -180,7 +179,7 @@ const About = () => {
           <a
             href="https://www.apple.com/in/macos/monterey/"
             target="_blank"
-            className="hover:opacity-80"
+            className="hover:opacity-80 cursor-fancy"
           >
             <img
               src={macos}

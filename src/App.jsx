@@ -11,7 +11,7 @@ ReactGA.initialize(ID);
 
 const App = () => {
   return (
-    <div className="h-screen px-4 pt-4 lg:px-20 lg:pt-10 2xl:px-24 2xl:pt-14">
+    <div className="h-screen px-4 pt-4 lg:px-20 lg:pt-10 2xl:px-24 2xl:pt-14 cursor-fancy">
       <Navigation />
       <Home />
       <About />
