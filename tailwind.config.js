@@ -19,7 +19,7 @@ module.exports = {
         blu: "#2429AF",
       },
       cursor: {
-        'fancy': 'url(./src/images/pointer.svg), pointer',
+        'fancy': 'url(./src/images/pointer.svg)',
       },
       fontFamily: {
         DmSans: ["DM Sans", "sans-serif"],
