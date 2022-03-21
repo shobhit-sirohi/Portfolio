@@ -3,6 +3,18 @@ import ladka from "../images/ladka.svg";
 import arrow from "../images/arrow.svg";
 
 const Home = () => {
+  // <script
+  //   data-name="BMC-Widget"
+  //   data-cfasync="false"
+  //   src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+  //   data-id="shobhitsirohi"
+  //   data-description="Support me on Buy me a coffee!"
+  //   data-message=""
+  //   data-color="#FF7722"
+  //   data-position="Right"
+  //   data-x_margin="18"
+  //   data-y_margin="18"
+  // ></script>;
   return (
     <div
       className="flex flex-col w-full md:flex-row md:h-5/6"
