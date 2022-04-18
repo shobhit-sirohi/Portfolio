@@ -29,7 +29,7 @@ const Home = () => {
             Shobhit Sirohi.
           </h2>
           <h3 className="mt-2 text-3xl font-medium md:text-3xl 2xl:text-4xl font-DmSans text-textgrey">
-            I build Web Apps.
+            I build stuff.
           </h3>
         </div>
         <div className="hidden xl:flex">

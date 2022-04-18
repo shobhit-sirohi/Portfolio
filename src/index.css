@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 .boxy span:before {
-  content: "नमस्ते";
+  content: "Hello";
   animation: text infinite 6s;
 }
 @keyframes text {
   20% {
-    content: "Привет";
+    content: "नमस्ते";
   }
   40% {
     content: "Bonjour";
@@ -17,6 +17,6 @@
     content: "こんにちわ";
   }
   80% {
-    content: "Hello";
+    content: "Привет";
   }
 }
