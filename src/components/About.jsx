@@ -33,17 +33,15 @@ const About = () => {
             </a>
             .
           </h2> */}
-          <h2>
-            
-          </h2>
+          <h2></h2>
           <h2 className="">
-            Currently learning web APIs and building<> </>
+            Currently building<> </>
             <a
-              href="https://github.com/shobhit-sirohi/shopify-challenge-2022"
+              href="https://github.com/shobhit-sirohi/PokeDex"
               target="_blank"
-              className="underline hover:text-orangy cursor-fancy"
+              className=" hover:text-orangy cursor-fancy"
             >
-              Spacetagram
+              PokéDex
             </a>
             .
           </h2>
