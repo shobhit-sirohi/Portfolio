@@ -20,7 +20,7 @@ const About = () => {
       <div className="flex flex-col pt-6 md:pt-10 md:flex-row">
         <div className="space-y-4 text-2xl font-medium lg:space-y-6 md:text-3xl 2xl:text-4xl font-Inter text-textgrey">
           <h2>
-            I am a Front-end Engineer from Meerut, India
+            I am a Front-End Engineer from Meerut, India
           </h2>
           {/* <h2 className="">
             Working as an Intern at <> </>
@@ -35,13 +35,13 @@ const About = () => {
           </h2> */}
           <h2></h2>
           <h2 className="">
-            Currently building<> </>
+            Currently building stuff @ <> </>
             <a
-              href="https://github.com/shobhit-sirohi/PokeDex"
+              href="https://leonnoel.com/100devs/"
               target="_blank"
               className=" hover:text-orangy cursor-fancy"
             >
-              PokéDex
+              100 Devs
             </a>
             .
           </h2>

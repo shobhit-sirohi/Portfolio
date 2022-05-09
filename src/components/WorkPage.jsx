@@ -4,6 +4,7 @@ import gsip from "../images/gsip.png";
 import starbucks from "../images/starbucks.png";
 import spacetagram from "../images/spacetagram.png";
 import dicegame from "../images/dicegame.png";
+import pokedex from "../images/pokedex.png";
 const WorkPage = () => {
   return (
     <div id="work" className="space-y-4 md:space-y-8">
@@ -11,7 +12,15 @@ const WorkPage = () => {
         My Work.
       </h1>
       <Work
-        heading="01 / SPACETAGRAM"
+        heading="01 / POKEDEX"
+        text="PokéDex ( Pokemon Wiki ) using PokéApi. Built with React and
+        TailwindCss. 20 Alphabetical Component based Pokemon cards."
+        image={pokedex}
+        gitLink="https://github.com/shobhit-sirohi/Pokedex"
+        demoLink="https://pokedex-shobhit.netlify.app/"
+      />
+      <Work
+        heading="02 / SPACETAGRAM"
         text="Randomly Generated Data Cards from Nasa's APOD API. Built using React and TailwindCss. Implemented React Router DOM for the picture of the day page."
         image={spacetagram}
         gitLink="https://github.com/shobhit-sirohi/shopify-challenge-2022"
@@ -26,7 +35,7 @@ const WorkPage = () => {
       />
 
       <Work
-        heading="02 / STARBUCKS REWARDS PAGE CLONE"
+        heading="04 / STARBUCKS REWARDS PAGE CLONE"
         text="A fully Responsive Clone of Starbucks Rewards Page. Made with HTML and TailwindCss."
         image={starbucks}
         gitLink="https://github.com/shobhit-sirohi/starbucks-rewards-page-clone"
