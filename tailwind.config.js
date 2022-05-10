@@ -4,7 +4,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        lightgrey: "#FFFFFF",
         headinggrey: "#181717",
         textgrey: "#86868b",
         behance: "#105DFB",

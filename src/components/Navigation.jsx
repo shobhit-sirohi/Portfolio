@@ -21,17 +21,17 @@ const Navigation = () => {
         </a>
         <ul className="hidden space-x-16 text-2xl font-medium md:flex 2xl:space-x-20 2xl:text-3xl">
           <li className="hover:text-orangy ">
-            <a class="cursor-fancy" href="#about">
+            <a class="" href="#about">
               about
             </a>
           </li>
           <li className="hover:text-orangy">
-            <a class="cursor-fancy" href="#work">
+            <a class="" href="#work">
               work
             </a>
           </li>
           <li className="hover:text-orangy">
-            <a class="cursor-fancy" href="#contact">
+            <a class="" href="#contact">
               contact
             </a>
           </li>

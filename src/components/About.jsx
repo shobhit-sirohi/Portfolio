@@ -39,7 +39,7 @@ const About = () => {
             <a
               href="https://leonnoel.com/100devs/"
               target="_blank"
-              className=" hover:text-orangy cursor-fancy"
+              className=" hover:text-orangy"
             >
               100 Devs
             </a>
@@ -53,7 +53,7 @@ const About = () => {
           <a
             href="https://developer.mozilla.org/en-US/docs/Web/HTML"
             target="_blank"
-            className="hover:opacity-80 cursor-fancy"
+            className="hover:opacity-80 "
           >
             <img
               src={html}
@@ -65,7 +65,7 @@ const About = () => {
           <a
             href="https://developer.mozilla.org/en-US/docs/Web/CSS"
             target="_blank"
-            className="hover:opacity-80 cursor-fancy"
+            className="hover:opacity-80 "
           >
             <img
               src={css}
@@ -76,7 +76,7 @@ const About = () => {
           <a
             href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
             target="_blank"
-            className="hover:opacity-80 cursor-fancy"
+            className="hover:opacity-80 "
           >
             <img
               src={js}
@@ -87,7 +87,7 @@ const About = () => {
           <a
             href="https://reactjs.org/"
             target="_blank"
-            className="hover:opacity-80 cursor-fancy"
+            className="hover:opacity-80 "
           >
             <img
               src={react}
@@ -98,7 +98,7 @@ const About = () => {
           <a
             href="https://tailwindcss.com/"
             target="_blank"
-            className="hover:opacity-80 cursor-fancy"
+            className="hover:opacity-80 "
           >
             <img
               src={tailwind}
@@ -109,7 +109,7 @@ const About = () => {
           <a
             href="https://www.netlify.com/"
             target="_blank"
-            className="hover:opacity-80 cursor-fancy"
+            className="hover:opacity-80 "
           >
             <img
               src={netlify}
@@ -120,7 +120,7 @@ const About = () => {
           <a
             href="https://git-scm.com/"
             target="_blank"
-            className="hover:opacity-80 cursor-fancy"
+            className="hover:opacity-80 "
           >
             <img
               src={git}
@@ -131,7 +131,7 @@ const About = () => {
           <a
             href="https://www.npmjs.com/"
             target="_blank"
-            className="hover:opacity-80 cursor-fancy"
+            className="hover:opacity-80 "
           >
             <img
               src={npm}
@@ -143,7 +143,7 @@ const About = () => {
           <a
             href="https://github.com/"
             target="_blank"
-            className="hover:opacity-80 cursor-fancy"
+            className="hover:opacity-80 "
           >
             <img
               src={github}
@@ -154,7 +154,7 @@ const About = () => {
           <a
             href="https://code.visualstudio.com/"
             target="_blank"
-            className="hover:opacity-80 cursor-fancy"
+            className="hover:opacity-80 "
           >
             <img
               src={vscode}
@@ -165,7 +165,7 @@ const About = () => {
           <a
             href="https://vitejs.dev/"
             target="_blank"
-            className="hover:opacity-80 cursor-fancy"
+            className="hover:opacity-80 "
           >
             <img
               src={vite}
@@ -177,7 +177,7 @@ const About = () => {
           <a
             href="https://www.apple.com/in/macos/monterey/"
             target="_blank"
-            className="hover:opacity-80 cursor-fancy"
+            className="hover:opacity-80 "
           >
             <img
               src={macos}
