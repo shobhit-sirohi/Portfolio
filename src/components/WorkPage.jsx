@@ -29,7 +29,7 @@ const WorkPage = () => {
       />
       <Work
         heading="03 / SAVE THE COW!"
-        text="A CLI app using ASCII art, made with node.js"
+        text="A CLI app using template literals with Raw ASCII art. Built with Node.js"
         image={savecow}
         gitLink="https://github.com/shobhit-sirohi/Cow.js"
         demoLink="https://replit.com/@shobhit-sirohi/Guess-the-Animal?embed=1&output=1"
