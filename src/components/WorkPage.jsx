@@ -5,6 +5,7 @@ import starbucks from "../images/starbucks.png";
 import spacetagram from "../images/spacetagram.png";
 import dicegame from "../images/dicegame.png";
 import pokedex from "../images/pokedex.png";
+import savecow from "../images/savecow.jpeg";
 const WorkPage = () => {
   return (
     <div id="work" className="space-y-4 md:space-y-8">
@@ -27,7 +28,14 @@ const WorkPage = () => {
         demoLink="https://spacetagram-shobhit-sirohi.netlify.app/"
       />
       <Work
-        heading="03 / GLOBAL SCHOLAR INTERNSHIP PROGRAM's WEBSITE"
+        heading="03 / SAVE THE COW!"
+        text="A CLI app using ASCII art, made with node.js"
+        image={savecow}
+        gitLink="https://github.com/shobhit-sirohi/Cow.js"
+        demoLink="https://replit.com/@shobhit-sirohi/Guess-the-Animal?embed=1&output=1"
+      />
+      <Work
+        heading="04 / GLOBAL SCHOLAR INTERNSHIP PROGRAM's WEBSITE"
         text="World’s First Rotational Global Internship Program under the guidance of Ivy league Mentors & Corporate Executives. Built with React and TailwindCss, Pages are implemented by using React Router DOM."
         image={gsip}
         gitLink="https://github.com/shobhit-sirohi/gsip"
@@ -35,14 +43,14 @@ const WorkPage = () => {
       />
 
       <Work
-        heading="04 / STARBUCKS REWARDS PAGE CLONE"
+        heading="05 / STARBUCKS REWARDS PAGE CLONE"
         text="A fully Responsive Clone of Starbucks Rewards Page. Made with HTML and TailwindCss."
         image={starbucks}
         gitLink="https://github.com/shobhit-sirohi/starbucks-rewards-page-clone"
         demoLink="https://starbucksrewards.netlify.app/"
       />
       <Work
-        heading="05 / DICE GAME"
+        heading="06 / DICE GAME"
         text="A Dice Rolling game that guesses the randomly generated dice outcome. Made with HTML, CSS and Javascript."
         image={dicegame}
         gitLink="https://github.com/shobhit-sirohi/DiceGame"
