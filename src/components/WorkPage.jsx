@@ -32,7 +32,7 @@ const WorkPage = () => {
         text="A CLI app using template literals with Raw ASCII art. Built with Node.js"
         image={savecow}
         gitLink="https://github.com/shobhit-sirohi/Cow.js"
-        demoLink="https://replit.com/@shobhit-sirohi/Guess-the-Animal?embed=1&output=1"
+        demoLink="https://replit.com/@shobhit-sirohi/Guess-the-Animal#index.js"
       />
       <Work
         heading="04 / GLOBAL SCHOLAR INTERNSHIP PROGRAM's WEBSITE"
