@@ -35,15 +35,14 @@ const About = () => {
           </h2> */}
           <h2></h2>
           <h2 className="">
-            Currently building stuff @
+            Currently centering divs
             <a
               href="https://kaseya.com"
               target="_blank"
               className=" hover:text-orangy"
             >
-              Kaseya
+              @Kaseya
             </a>
-            in Bangalore, India.
           </h2>
         </div>
       </div>
