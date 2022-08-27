@@ -35,7 +35,7 @@ const About = () => {
           </h2> */}
           <h2></h2>
           <h2 className="">
-            Currently centering divs
+            Currently centering divs&nbsp;
             <a
               href="https://kaseya.com"
               target="_blank"
