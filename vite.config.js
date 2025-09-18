@@ -9,6 +9,12 @@ export default defineConfig({
     open: true
   },
   build: {
-    outDir: 'dist'
-  }
+    outDir: 'dist',
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      },
+    },
+  },
+  base: './'
 })

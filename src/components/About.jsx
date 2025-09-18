@@ -1,3 +1,4 @@
+import React from "react";
 import git from "../images/git.svg";
 import github from "../images/github.svg";
 import css from "../images/css.svg";
