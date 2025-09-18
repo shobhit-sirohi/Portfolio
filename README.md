@@ -1,13 +1,13 @@
 <br />
 <div align="center">
-  <a href="https://shobhitsirohi.com">
+  <a href="https://shobhit.dev">
     <img src="src/images/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Portfolio</h3>
 
   <p align="center">
-    <a href="https://shobhitsirohi.com">Live View</a>
+    <a href="https://shobhit.dev">Live View</a>
     .
     <a href="https://github1s.com/shobhit-sirohi/Portfolio">Code</a>
     ·
