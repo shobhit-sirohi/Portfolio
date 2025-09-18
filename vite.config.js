@@ -16,5 +16,6 @@ export default defineConfig({
       },
     },
   },
-  base: './'
+  // Remove base: './' - this can cause issues on live sites
+  // base: './'
 })
