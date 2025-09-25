@@ -21,7 +21,7 @@ const About = () => {
       <div className="flex flex-col pt-6 md:pt-10 md:flex-row">
         <div className="space-y-4 text-2xl font-medium lg:space-y-6 md:text-3xl 2xl:text-4xl font-Inter text-textgrey">
           <h2>
-            I am a Front-End Engineer from Meerut, India
+            I am a Front-End Engineer from Bangalore, India
           </h2>
           {/* <h2 className="">
             Working as an Intern at <> </>
